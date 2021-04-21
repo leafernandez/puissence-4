@@ -1,6 +1,6 @@
-import React from 'react'
-import Game from './components/Game'
-import './puissance.css'
+import React from 'react';
+import Game from './components/Game';
+import './puissance.css';
 
 
 class App extends React.Component {
@@ -14,7 +14,6 @@ class App extends React.Component {
     )
   }
 }
-
 
 
 
