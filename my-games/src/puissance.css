@@ -3,14 +3,25 @@
   }
   
   .App-header {
+<<<<<<< HEAD
     background-color:rgb(101, 147, 233);
+=======
+    background-image: url("./style/16458383.webp"),
+    linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+    background-position: center;
+>>>>>>> ft-modif-css
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
+<<<<<<< HEAD
     color: rgb(26, 23, 23);
+=======
+    color: white;
+    font-size: xx-large;
+>>>>>>> ft-modif-css
   }
   .board-game {
       display: flex;
@@ -21,18 +32,32 @@
       width: 800px;
   }
   .cercle{
+<<<<<<< HEAD
       margin: 3px;
       width: 100px;
       height: 100px;
       border-radius: 50px;
+=======
+      margin: 2px;
+      width: 100px;
+      height: 100px;
+      border-radius: 90px;
+>>>>>>> ft-modif-css
       border: 3px solid white;
   }
   
   .jaune {
+<<<<<<< HEAD
       background-color: rgb(238, 215, 5);
   }
   .rouge {
       background-color: red;
+=======
+      background-color: rgb(223, 238, 11);
+  }
+  .rouge {
+      background-color: rgb(221, 58, 58);
+>>>>>>> ft-modif-css
   }
   .hover-color {
       background-color: rgba(255, 255, 255, 0.125);
