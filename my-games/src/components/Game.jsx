@@ -100,6 +100,7 @@ class Game extends React.Component {
         // Victoire en diagonale inversé
         for (let col=0; col<myNewBoard.length-2; col++){
             for (let ln=0; ln<myNewBoard[col].length-3; ln++) {
+
                 if (myNewBoard[col][ln] === 1 && myNewBoard[col+1][ln-1] === 1 && myNewBoard[col+2][ln-2] === 1 && myNewBoard[col+3][ln-3] === 1) {
                     this.setState({endGame:1})
                 } else if (myNewBoard[col][ln] === 2 && myNewBoard[col+1][ln-1] === 2 && myNewBoard[col+2][ln-2] === 2 && myNewBoard[col+3][ln-3] === 2){
