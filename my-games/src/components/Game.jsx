@@ -1,5 +1,6 @@
 import React from 'react';
 import App from '../App'
+
 class Game extends React.Component {
 
     constructor(props) {
@@ -65,7 +66,7 @@ class Game extends React.Component {
         }
 
         // Victoire en colonne
-        for (let col=0; col<myNewBoard.length-2; col++){
+        for (let col=0; col<myNewBoard.length; col++){
             for (let ln=0; ln<myNewBoard[col].length-3; ln++) {
                 if (myNewBoard[col][ln] === 1 && myNewBoard[col][ln+1] === 1 && myNewBoard[col][ln+2] === 1 && myNewBoard[col][ln+3] === 1) {
                     this.setState({endGame:1})
@@ -76,8 +77,8 @@ class Game extends React.Component {
         }
 
         // Victoire en ligne
-        for (let col=0; col<myNewBoard.length-2; col++){
-            for (let ln=0; ln<myNewBoard[col].length-3; ln++) {
+        for (let col=0; col<myNewBoard.length-3; col++){
+            for (let ln=0; ln<myNewBoard[col+1].length; ln++) {
                 if (myNewBoard[col][ln] === 1 && myNewBoard[col+1][ln] === 1 && myNewBoard[col+2][ln] === 1 && myNewBoard[col+3][ln] === 1) {
                     this.setState({endGame:1})
                 } else if (myNewBoard[col][ln] === 2 && myNewBoard[col+1][ln] === 2 && myNewBoard[col+2][ln] === 2 && myNewBoard[col+3][ln] === 2){
