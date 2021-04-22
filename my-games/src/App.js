@@ -4,12 +4,13 @@ import './puissance.css';
 
 
 class App extends React.Component {
-  render(){
-    return(
-      <div>  
-        
-        <Game/>
-        
+  render() {
+    return (
+      <div>
+
+
+        <Game />
+
       </div>
     )
   }

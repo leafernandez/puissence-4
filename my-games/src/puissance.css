@@ -1,12 +1,13 @@
 .App {
     text-align: center;
-  }
-  
-  .App-header {
-    background-image: url("./style/16458383.webp"),
-    linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+}
+
+.App-header {
+    background-image: url("./style/16458383.webp"), linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
     background-position: center;
-    min-height: 100vh;
+    background-repeat: repeat;
+    background-size: contain;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,29 +15,43 @@
     font-size: calc(10px + 2vmin);
     color: white;
     font-size: xx-large;
-  }
-  .board-game {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      justify-content: center;
-      height: 650px;
-      width: 800px;
-  }
-  .cercle{
-      margin: 2px;
-      width: 100px;
-      height: 100px;
-      border-radius: 90px;
-      border: 3px solid white;
-  }
-  
-  .jaune {
-      background-color: rgb(223, 238, 11);
-  }
-  .rouge {
-      background-color: rgb(221, 58, 58);
-  }
-  .hover-color {
-      background-color: rgba(255, 255, 255, 0.125);
-  }
+}
+
+.board-game {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 650px;
+    width: 800px;
+}
+
+.cercle {
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+    border: 3px solid white;
+}
+
+.jaune {
+    background-color: rgb(223, 238, 11);
+}
+
+.rouge {
+    background-color: rgb(221, 58, 58);
+}
+
+.hover-color {
+    background-color: rgba(255, 255, 255, 0.125);
+}
+
+img {
+    position: relative;
+    left: 34%;
+}
+
+.image {
+    background: rgb(15, 15, 15);
+    height: 100vh;
+}
