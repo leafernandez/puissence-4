@@ -1,5 +1,6 @@
 import React from 'react';
 import App from '../App'
+
 class Game extends React.Component {
 
     constructor(props) {
